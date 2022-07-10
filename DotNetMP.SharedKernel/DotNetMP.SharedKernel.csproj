@@ -7,7 +7,7 @@
     <AssemblyVersion>1.0.1</AssemblyVersion>
   </PropertyGroup>
     <PropertyGroup Condition=" '$(Version)' == '' ">
-        <VersionPrefix Condition=" '$(VersionPrefix)' == '' ">1.0.2</VersionPrefix>
+        <VersionPrefix Condition=" '$(VersionPrefix)' == '' ">1.0.5</VersionPrefix>
         <Version Condition=" '$(VersionSuffix)' != '' ">$(VersionPrefix)-$(VersionSuffix)</Version>
         <Version Condition=" '$(Version)' == '' ">$(VersionPrefix)</Version>
     </PropertyGroup>
